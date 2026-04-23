@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_s2_stub
+
+import std::io
+use ltl_s2_stub as lib
+
+fn main() {
+    io::println("ltl_s2_stub demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
