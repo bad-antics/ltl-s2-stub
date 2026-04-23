@@ -1,0 +1,15 @@
+// ltl-s2-stub/main.ltl
+//
+// S2 geometry cell-id decoder and area estimator.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-s2-stub v0.1.0")
+    io::println("S2 geometry cell-id decoder and area estimator.")
+    0
+}
